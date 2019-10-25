@@ -1,0 +1,157 @@
+*
+{
+	margin: 0;
+padding:0;
+}
+
+header {
+
+background-image:url(z5.jpeg);  
+background-size: cover;  
+height:100vh;
+background-position:center;	
+}
+.nav-logo{
+	background: rgb (0,0,0, 0.5);
+	height:80px;
+	
+}
+.nav{
+	float:right;
+	list-style:none;
+	margin:20px;
+	
+}
+.nav li {
+	display: inline-block;
+	margin:10px 5px;
+}
+
+.nav li a{
+	text-decoration: none;
+	color: #fff;
+	font-family: sans-serif;
+	padding: 5px 10px;
+	letter-spacing: 2px;
+	border: 1px solid #fff;
+	
+}
+.nav li a:hover{
+	background: #fff;
+	transition: .4s;
+	color: #000;
+}
+
+.srodek
+{
+	position:relative;
+	text-align:center;
+	font-family: sans-serif;
+	color:#fff;
+	margin-left:auto;
+	margin-right:auto;
+	top: 180px; 
+	
+	
+}
+.srodek h1 {
+	
+	font-size:42px;
+	margin:25px;
+	
+}
+.btn {
+	font-size:18px;
+	letter-spacing:2px;
+	margin:5px;
+	padding:7px 10px;
+	text-decoration: none;
+	border:1px solid #fff; 
+	
+}
+.btn1{
+	background:#fff;
+	color:#000;
+}
+.btn2{
+	
+	color:#fff;
+}
+.pierwszy{
+
+}
+
+
+#contener
+{
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+#slider{
+top: 60 px;
+position:relative;
+height:360px;
+width:100%;
+background-color: rgba(0, 0, 0, 0.5);
+background-size: 100%;
+
+
+}
+
+
+
+
+#content
+{
+	float: left;
+	padding: 40px;
+	width: 920px;
+	padding: 40px;
+	background-color: rgba(0, 0, 0, 0.5);
+	min-height: 580px;
+	text-align: justify;
+	font-family: sans-serif;
+	
+}
+
+
+#stopka {
+	clear: both;
+	width:960px;
+	height:50 px;
+	color: white;
+	background-color: rgba(185, 0, 255, 0.25);
+	text-align: center;
+	padding: 20px;
+	font-size: 18px;
+}
+@keyframes slidy {
+0% { left: 0%; }
+20% { left: 0%; }
+25% { left: -100%; }
+45% { left: -100%; }
+50% { left: -200%; }
+70% { left: -200%; }
+75% { left: -300%; }
+95% { left: -300%; }
+100% { left: -400%; }
+}
+
+body { margin: 0; } 
+div#slider { overflow: hidden; }
+div#slider figure img { width: 20%; float: left; }
+div#slider figure { 
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  text-align: left;
+  font-size: 0;
+  animation: 30s slidy infinite; 
+}
+a{
+text-decoration:none;
+}
+
