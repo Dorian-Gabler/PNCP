@@ -1,0 +1,100 @@
+body {
+
+background-image:url(woow.JPG);  
+background-size: cover;  
+background-position:center;	
+height:100vh;
+}
+
+#contener
+{
+	width: 1300px;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+#content
+{
+	margin-left: auto;
+	margin-right: auto;
+	padding: 40px;
+	width: 1000px;
+	padding: 40px;
+	min-height: 980px;
+	text-align: justify;
+	
+	
+}
+
+#Zdjęcie{
+width:500px;
+height :500px;
+background-color:white;
+float: left;
+text-align: center;
+	
+}
+
+
+#TwojeGrupy{
+ width:500px;
+height:500px;
+ background-color:white;
+float: left;
+ margin-top:20px;
+
+}
+
+#tablica{
+ margin-top:0px;
+ width:480px;
+ min-height:1020px;
+ background-color:white;
+ float: right;
+
+ 
+}
+
+
+.nav-logo{
+	background: rgb (0,0,0, 0.5);
+	height:80px;
+	
+}
+.nav{
+	
+	list-style:none;
+	margin:20px;
+	
+}
+.nav li {
+	display: inline-block;
+	margin:10px 5px;
+}
+
+.nav li a{
+	text-decoration: none;
+	color: black;
+	font-family: sans-serif;
+	padding: 5px 10px;
+	letter-spacing: 2px;
+	border: 1px solid #000000;
+	
+}
+.nav li a:hover{
+	background: #F5F5DC;
+	transition: .4s;
+	color: #000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
