@@ -1,0 +1,212 @@
+body, html{
+margin:0;
+height:100%;
+font-size: 16px;
+scroll-behavior: smooth ;
+}
+
+.zd1, .zd2, .zd3, .zd4, .zd5{
+	position:relative;
+	opacity:0.80;
+	background-position:center;
+	background-size:cover;
+	background-repeat:no-repeat;
+	
+	
+	
+	
+	
+	background-attachment:fixed;
+}
+
+
+.zd1{
+	background-image:url(20.Jpeg);  
+	min-height:100%;
+	
+}
+.zd2{
+	background-image:url(123123.JPG);  
+	min-height:100%;
+	
+}
+.zd3{
+	background-image:url(1.jpg);  
+	min-height:100%;
+	
+}
+
+.zd4{
+	background-image:url(Logo.png);  
+	min-height:100%;
+	
+}
+.zd5{
+	background-image:url(BR.jpg);  
+	min-height:100%;
+	
+}
+
+
+
+.nav-logo{
+	background: rgb (0,0,0, 0.5);
+	height:80px;
+	
+}
+.nav{
+	float:right;
+	list-style:none;
+	margin:20px;
+	
+}
+.nav li {
+	display: inline-block;
+	margin:10px 5px;
+}
+
+.nav li a{
+	text-decoration: none;
+	color: #fff;
+	font-family: sans-serif;
+	padding: 5px 10px;
+	letter-spacing: 2px;
+	border: 1px solid #fff;
+	
+}
+.nav li a:hover{
+	background: #fff;
+	transition: .4s;
+	color: #000;
+}
+
+.srodek h1 {
+	
+	font-size:42px;
+	margin:25px;
+	
+}
+.srodek
+{
+	position:relative;
+	text-align:center;
+	font-family: 'Oswald', sans-serif;
+	color:#fff;
+	margin-left:auto;
+	margin-right:auto;
+	top: 180px; 
+	
+	
+}
+.btn {
+	font-size:18px;
+	letter-spacing:2px;
+	margin:5px;
+	padding:7px 10px;
+	text-decoration: none;
+	border:1px solid #fff; 
+	
+}
+.btn1{
+	background:#fff;
+	color:#000;
+}
+.btn2{
+	background:#fff;
+	color:#000;
+}
+@media(max-width:568px){
+	.zd1, .zd2, .zd3{
+		background-attachment:scroll;
+	}
+}
+#kontener{
+	width:1000px;
+	text-align: justify;
+	min-height:200px;
+	margin-left:auto;
+	margin-right:auto;
+	font-family: 'Roboto', sans-serif;
+}
+
+.section {
+	padding:50px 80px;
+}
+.section-light{
+	background-color:#282C2F;
+	color:#FFFAF0;
+}
+
+
+
+a{
+text-decoration:none;
+color:#000;
+}
+
+.skrolek{
+	position: absolute;
+	bottom: 20px;
+	left:50%;
+	width:40px;
+	height:40px;
+
+	transform: translateY(-80px) transformX (-50%)
+	rotate(45deg);
+	
+}
+.skrolek span {
+	position:absolute;
+	top: 0;
+	left: 0;
+	display:block;
+	width:100%;
+	height:100%;
+	border-bottom: 2px solid #fff;
+	border-right: 2px solid #fff;
+	animation: animate 1.5s linear infinite;
+	opacity:0;
+}
+.skrolek span:nth-child(1){
+	transform: translate(-15px, -15px);
+	animation-delay:-0.4s;
+}
+.skrolek span:nth-child(2){
+	transform: translate(0px, 0px);
+		animation-delay:-0.2s;
+}
+.skrolek span:nth-child(3){
+	transform: translate(15px, 15px);
+		animation-delay:0s;
+}
+@keyframes animate {
+	0%
+	{
+		top: -5px;
+		left: -5px;
+		opacity: 0;
+		
+	}
+	25%
+	{
+		top: 0px;
+		left: 0px;
+		opacity: 1;
+		
+	}
+		100%
+	{
+		top: 0px;
+		left: 0px;
+		opacity: 1;
+		
+	}
+}
+h1 {
+
+	
+font-size: 3em;
+color: #fff;
+font-family: 'Poppins', sans-serif;
+
+}

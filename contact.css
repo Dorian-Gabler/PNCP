@@ -1,9 +1,10 @@
-﻿body,
+body,
 html{min-height :100%;}
 
 body {
 margin: 0;
-background: url(z5.jpeg);  
+background: url(z5.Jpeg);  
+
 background-size: cover;  
 background-repeat:no-repeat;
 padding:0;
